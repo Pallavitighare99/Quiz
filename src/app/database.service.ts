@@ -55,6 +55,8 @@ getScore() : any
 
       let userList : Detail[];
       let uData : Detail;
+      let userExist= false;
+
 
       userList = data;
       for(var i = 0 ; i <userList.length; i++)
@@ -70,6 +72,7 @@ getScore() : any
           localStorage.setItem("userName", uData.userName);
           localStorage.setItem("email",uData.email);
           this.router.navigate(['/questionLink/quizLink'])
+          userExist=true;
           }
           else
           {
@@ -79,6 +82,10 @@ getScore() : any
 
         } 
 
+        
+      }
+      if(userExist==false){
+        alert("user does not exist please signup");
         
       }
      })

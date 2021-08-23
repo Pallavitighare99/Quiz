@@ -6,9 +6,27 @@
       "email": "pallavitighare01@gmail.com",
       "password": "asdf",
       "id": 3
+    },
+    {
+      "_id": "",
+      "userName": "Rani",
+      "email": "rani@gmail.com",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "_id": "",
+      "userName": "Kiran",
+      "email": "kiran@gmail.com",
+      "password": "123",
+      "id": 5
     }
   ],
   "Score": [
-   
+    {
+      "score": 40,
+      "userName": "Rani",
+      "id": 1
+    }
   ]
 }
