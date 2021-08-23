@@ -5,36 +5,10 @@
       "userName": "Pallavi",
       "email": "pallavitighare01@gmail.com",
       "password": "asdf",
-      "id": 1
-    },
-    {
-      "_id": "",
-      "userName": "Rani",
-      "email": "rani@gmail.com",
-      "password": "Rani123",
-      "id": 2
+      "id": 3
     }
   ],
   "Score": [
-    {
-      "score": 20,
-      "userName": "Rani",
-      "id": 1
-    },
-    {
-      "score": 60,
-      "userName": "Rani",
-      "id": 2
-    },
-    {
-      "score": 40,
-      "userName": "Rani",
-      "id": 3
-    },
-    {
-      "score": 40,
-      "userName": "Rani",
-      "id": 4
-    }
+   
   ]
 }

@@ -17,7 +17,7 @@ export class DatabaseService {
     let hostUrl = 'http://localhost:3000/Data?v='+d.toLocaleTimeString();
    this.http.post<Detail>(hostUrl, body).subscribe(responseData    => {
       
-       
+    this.router.navigate(['/loginLink']);
     }
     
     ); 
