@@ -1,0 +1,42 @@
+.main-toolbar{
+    height: 50px;
+    background-color: #23963e;
+    width: 100%;
+    font-family: josephin sans;
+}
+.heading1{
+    width: 40%;
+    float: left ;
+    padding-left: 30px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.heading2{
+    width: 50%;
+    position:relative;
+    left: 45%;
+    padding: 10px;
+
+    a{
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    a:hover{
+        color: green;
+        font-size: 20px;
+        font-weight: bold;
+        border-bottom: 3px solid black;
+    }
+
+    a:active{
+        color: rgb(175, 22, 175);
+        font-size: 20px;
+        font-weight: bold;
+        border-bottom: 5px solid black;
+        background-color: yellow;
+    } 
+}

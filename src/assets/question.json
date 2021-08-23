@@ -1,0 +1,147 @@
+{
+    "questions":{
+        "quiz": [
+            {
+                "id": 1,
+                "question": "HTML stands for?",
+                "option1": "Hyper Text Markup Language",
+                "option2": "High Text Markup Language",
+                "option3": "Hyper Tabular Markup Language",
+                "option4": "None of these",
+                "userOption":"",
+                "correctOption":"Hyper Text Markup Language",
+                "answers": [
+                    {
+                        "answer": "Hyper Text Markup Language",
+                        "isAnswer": true
+                    },
+                    {
+                        "answer": "High Text Markup Language",
+                        "isAnswer": false
+                    },
+                    {
+                        "answer": "Hyper Tabular Markup Language",
+                        "isAnswer": false
+                    },
+                    {
+                        "answer": "None of these",
+                        "isAnswer": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "question": "which of the following tag is used to mark a begining of paragraph ?",
+                "option1": "<TD>",
+                "option2": "<br>",
+                "option3": "<P>",
+                "option4": "<TR>",
+                "userOption":"",
+                "correctOption":"<P>",
+                "answers": [
+                    {
+                        "answer": "<TD>",
+                        "isAnswer": false
+                    },
+                    {
+                        "answer": "<br>",
+                        "isAnswer": false
+                    },
+                    {
+                        "answer": "<P>",
+                        "isAnswer": true
+                    },
+                    {
+                        "answer": "<TR>",
+                        "isAnswer": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "question": "From which tag descriptive list starts ?",
+                "option1": "<LL>",
+                "option2": "<DD>",
+                "option3": "<DL>",
+                "option4": "<DS>",
+                "userOption":"",
+                "correctOption":"<DL>",
+                "answers": [
+                    {
+                        "answer": "<LL>",
+                        "isAnswer": false
+                    },
+                    {
+                        "answer": "<DD>",
+                        "isAnswer": false
+                    },
+                    {
+                        "answer": "<DL>",
+                        "isAnswer": true
+                    },
+                    {
+                        "answer": "<DS>",
+                        "isAnswer": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "question": "Correct HTML tag for the largest heading is",
+                "option1": "<head>",
+                "option2": "<h6>",
+                "option3": "<heading>",
+                "option4": "<h1>",
+                "userOption":"",
+                "correctOption":"<h1>",
+                "answers": [
+                    {
+                        "answer": "<head>",
+                        "isAnswer": false
+                    },
+                    {
+                        "answer": "<h6>",
+                        "isAnswer": false
+                    },
+                    {
+                        "answer": "<heading>",
+                        "isAnswer": false
+                    },
+                    {
+                        "answer": "<h1>",
+                        "isAnswer": true
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "question": "Apart from <b> tag, what other tag makes text bold ?",
+                "option1": "<fat>",
+                "option2": "<strong>",
+                "option3": "<black>",
+                "option4": "<emp>",
+                "userOption":"",
+                "correctOption":"<strong>",
+                "answers": [
+                    {
+                        "answer": "<fat>",
+                        "isAnswer": false
+                    },
+                    {
+                        "answer": "<strong>",
+                        "isAnswer": true
+                    },
+                    {
+                        "answer": "<black>",
+                        "isAnswer": false
+                    },
+                    {
+                        "answer": "<emp>",
+                        "isAnswer": false
+                    }
+                ]
+            }
+        ]
+
+    }
+}
