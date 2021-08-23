@@ -77,7 +77,7 @@ getScore() : any
           else
           {
             alert(" Invalid User Name or Password");
-            break;
+            return;
           }
 
         } 
