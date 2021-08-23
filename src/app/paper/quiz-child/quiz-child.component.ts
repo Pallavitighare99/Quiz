@@ -34,10 +34,9 @@ export class QuizChildComponent implements OnInit {
   answerSelectedFlag = false;
   showPlayButtonFlag=true;
 
-  @Input()
+  
   qdata : any= QuestionData;
-  @Output()
-  notify : any= new EventEmitter();
+ 
 
   constructor(private http: HttpClient, private dbService : DatabaseService) { }
 
@@ -175,7 +174,7 @@ submitAnsOption4(answer : any)
 
 validateAns()
 {
-  this.notify.emit(this.qdata);
+ ;
     if(this.qdata.userOption == this.qdata.correctOption)
     {
       this.userScore=this.userScore+20;
